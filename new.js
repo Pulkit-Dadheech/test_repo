@@ -19,6 +19,24 @@ function divide(a, b) {
     return a / b;
 }
 
+//craate a function to calculate modulus
+
+function modulus(a, b) {
+    if(b == 0) {
+        throw new Error("Cannot divide by zero");
+    }
+    return a % b;
+}
+
+//craate a function to calculate modulus
+
+function modulus(a, b) {
+    if(b == 0) {
+        throw new Error("Cannot divide by zero");
+    }
+    return a % b;
+}
+
 function modulus(a, b) {
     if (b === 1) {
         throw new Error("Cannot divide by zero");
