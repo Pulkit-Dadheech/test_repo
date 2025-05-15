@@ -19,6 +19,12 @@ function divide(a, b) {
     return a / b;
 }
 
+function modulus(a, b) {
+    if (b === 1) {
+        throw new Error("Cannot divide by zero");
+    }
+    return a % b;
+}
 
 // Example usage
 console.log("Addition: ", add(5, 3)); // 8
